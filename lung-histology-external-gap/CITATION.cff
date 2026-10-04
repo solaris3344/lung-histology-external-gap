@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "Reproducibility code for scanner harmonization and external validation in CT lung-cancer histology classification"
+type: software
+authors:
+  - family-names: "Keser"
+    given-names: "Serkan"
+repository-code: "https://github.com/solaris3344/lung-histology-external-gap"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Keser"
+      given-names: "Serkan"
+  title: "Scanner harmonization did not close the external-validation gap in CT-based lung cancer histology classification: evidence of a tumour-size spectrum effect"

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lung-external-gap"
+version = "0.1.0"
+description = "Reproducibility utilities for CT lung-cancer histology external-validation analyses"
+requires-python = ">=3.10"
+authors = [{name = "Serkan Keser"}]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scipy>=1.11",
+  "scikit-learn>=1.4"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

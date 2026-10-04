@@ -1,0 +1,14 @@
+paths:
+  lung_pet_ct_dx: "C:/path/to/Lung-PET-CT-Dx"
+  nsclc_radiomics: "C:/path/to/NSCLC-Radiomics"
+  outputs: "C:/path/to/outputs"
+  fmcib_weights: "C:/path/to/FMCIB/weights"
+
+analysis:
+  random_seed: 2026
+  pca_components: 64
+  internal_folds: 5
+  internal_repeats: 5
+  bootstrap_resamples: 2000
+  nuisance_min_group_n: 3
+  nuisance_soft_alpha_fraction: 0.01
